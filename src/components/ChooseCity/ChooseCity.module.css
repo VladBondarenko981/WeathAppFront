@@ -1,0 +1,32 @@
+.mainStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(223, 227, 142, 0.36);
+  border-radius: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.077);
+  padding: 20px;
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+input {
+  width: 200px;
+  height: 35px;
+  border-radius: 2%;
+  border: 0px;
+}
+
+.secondStyle {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.favCities {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

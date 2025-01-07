@@ -1,0 +1,40 @@
+.tableActive {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(144, 180, 224);
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  left: 5%;
+}
+
+.tableHidden {
+  display: none;
+  flex-direction: column;
+  background-color: rgb(144, 180, 224);
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  left: 5%;
+}
+
+.tableActive tr {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 50px;
+  padding: 2px;
+}
+
+.tableActive td {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}

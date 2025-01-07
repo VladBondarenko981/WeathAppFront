@@ -1,0 +1,22 @@
+.mainStyle {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgba(0, 0, 255, 0.578);
+  margin: 50px auto;
+  border: 3px solid black;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  align-items: center;
+}

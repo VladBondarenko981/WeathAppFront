@@ -1,0 +1,17 @@
+.nextDaysWeatherTable {
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  background-color: black;
+}
+
+.DigitalWeatherTable {
+  position: relative;
+}
+
+body {
+  background-color: rgb(187, 215, 233);
+}
